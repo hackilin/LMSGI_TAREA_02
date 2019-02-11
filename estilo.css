@@ -1,0 +1,71 @@
+html,body {
+	height:100%;
+}
+
+header {
+		
+	display:block;
+	background:#7092BD;
+	padding:10px 0px;
+	font-family:'Verdana'
+	
+}
+section {
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 70px;
+	padding-top:30px;
+	font-family:'Verdana'
+}
+
+aside {
+	
+
+float: right;
+	border: 1px solid blue;
+	width: 19%;
+	border: 1px solid blue;
+	
+}
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 40px; 
+	padding:5px 0px;
+	clear: both;
+	background: #7092BD;
+	text-align: center;
+	color: #fff;
+}
+figure {
+	display: table; margin: 0 auto;
+}
+
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		display: block;
+		padding: 2em;
+		background-color:#7092BD;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: #CC673B;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: block;
+	}
+
+
+
+
