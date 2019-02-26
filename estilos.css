@@ -1,0 +1,48 @@
+html,
+
+body {
+	height:100%;
+	}
+
+header {
+		
+	display:block;
+	background: url(logo.jpg) no-repeat center top;
+	padding:10px 0px;
+	font-family:'Verdana';
+	size: 100%;
+	text-align: center;
+	
+}
+section {
+	width: 79%;
+	background: #ccc;
+	float: left;
+	overflow: auto;
+	padding-bottom: 70px;
+	padding-top:30px;
+	font-family:'Verdana'
+}
+
+aside {
+	
+
+float: right;
+	border: 1px solid blue;
+	width: 19%;
+	border: 1px solid blue;
+	
+}
+footer {
+	position: relative;
+	margin-top: -50px;
+	height: 40px; 
+	padding:5px 0px;
+	clear: both;
+	background: #7092BD;
+	text-align: center;
+	color: #fff;
+}
+figure {
+	display: table; margin: 0 auto;
+}
